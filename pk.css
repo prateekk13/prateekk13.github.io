@@ -1,0 +1,263 @@
+* {
+ box-sizing: border-box;
+}
+body {
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+/* I really like this color combination */
+nav {
+ float: left;
+ width: 20%;
+ height: 1200px; 
+ background:#483D8B;
+ padding: 25px;
+ color: white;
+}
+
+
+h1 {
+  text-align: center;
+  margin-top: 0.1px;
+  font-size:80px;
+}
+
+/* I tried this curve and it worked. */
+#img1 {
+  border-radius: 30%;
+}
+
+ul {
+  padding-left: 1px;
+}
+
+#tb {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 20%;
+}
+
+/* I really like this color combination */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#pktb, #tb th {
+  text-align: left;
+  border: 5px solid white;
+  padding: 20px;
+}
+
+/* Liked this table design from W3schools */
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
+.custom-font {
+    font-size: 25px;
+}
+
+p {
+    font-size: 25px;
+    line-height: 1cm;
+    padding-left: 50px;
+}
+
+
+h2 {
+  font-size:25px;
+  line-height: 1cm;
+  padding-left: 400px;
+  font-weight: bolder;
+}
+
+h3 {
+  font-size:50px;
+  line-height: 1cm;
+  text-align: right;
+  text-decoration: overline;
+  background-color: #483D8B;
+  padding-top: 20px;
+  color: white;
+}
+
+#pktb tr:hover {background-color: #ddd;}
+
+#pktb th {
+  text-align: left;
+  background-color: white;
+  color: black;
+}
+/* Saw these emojies somewhere on internet and tried it using w3schools. */
+.pk-emoji {
+  font-size: 35px;
+  color: white;
+}
+
+hr.under {
+  border-bottom:3px solid white;
+
+}
+
+/* I chose the color to match it. */
+hr.under1 {
+  border-bottom:3px solid #1a04aa;
+
+}
+
+ul.d {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  background-color: #333;
+}
+
+li.a{
+  float:right;
+}
+
+li a {
+  display:block;
+  color:white;
+  text-align:center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active){
+  background-color: #111;
+}
+
+.active{
+  background-color:#483D8B
+}
+
+
+ul.d {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  background-color: #333;
+}
+
+li.a{
+  float:left;
+}
+
+li.d {
+  display:block;
+  color:darkgrey;
+  text-align:center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active){
+  background-color: #111;
+}
+
+.active{
+  background-color:#483D8B
+}
+
+/* resize it using adobe photoshope */
+.pkimage{
+  float:right;
+  border-radius: 35%;
+  margin: 20px;
+}
+
+/*Tried it from w3schools */
+
+*{
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+}
+
+.header {
+background-color: grey;
+color:black;
+padding: 15px;
+resize: 10px;
+}
+
+/* Did this purposely */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.clearfix::after {
+  content:"";
+  clear:both;
+  display:table;
+}
+
+.menu {
+  width:25% ;
+  padding-top: 2cm;
+  padding-left: 1.5cm;
+}
+
+.content{
+  width: 75%;
+}
+
+.menu ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+.menu li {
+padding: 8px;
+margin-bottom: 8px;
+background-color: #33b5e5;
+color: #ffffff;
+}
+
+.menu li:hover {
+background-color: #0099cc;
+}
+
+.pkk{
+  margin-left: 2cm;
+  margin-top: 1cm;
+  font-size: 20px;
+}
+
+.imgg2{
+  margin-left: 700px;
+}
+
+.pk-img{
+  float: right;
+  margin:10px;
+}
+
+/* Took idea from w3 schools but changed the color accordingly. */
+a:visited {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+  text-align: center;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+  text-align: center;
+}
+
+element.style{
+  padding-left: 20px;
+}
+
+.back{
+  background-color: skyblue;
+}
