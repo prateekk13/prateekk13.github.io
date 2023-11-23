@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <title>PAGE</title>
+    <link rel="stylesheet" href="pk.css">
+</head> 
+<body>
+    <h3>EXPERIENCE</h3>
+
+    <ul class="d">
+      <!-- NavigationBar starts from here -->
+    <li><a href="pk.html">HOME</a>
+  </ul>
+
+    <img src="cod12.jpg" id = imgg1 alt="Code" width="300" height="246"> 
+    <p>The knowledge I gained during my studying time along with my hardwork helps me to get many jobs including my Dream job - 'Infosys'. Before and after that I have worked in many other MNCs as well and have gained a lot of experience. </p>
+
+
+<p>My other experience includes - </p>
+<ul class=pk1>
+  <li>Software Development</li>
+   <li> Project: Intelligent Personal Assistant</li>
+  <li> Description: Developed a virtual assistant using advanced language processing and machine learning algorithms.I also contributed with cross fumctional teams to gather and analyze project reqiurements.</li>
+  <li>Conducted thorough testing and debugging to identify and resolve software defets , ensuring the deleivery of high-quality of igh-quality products to clients.</li>
+  
+</ul>
+
+
+  <ul class=pk1>
+  <li>Graphic Design</li>
+  <li>- Project: Branding Overhaul for a Tech Startup</li>
+  <li>- Description: Revamped the visual identity of a technology startup, including a new logo, website design, and marketing collateral. Also contributed with many clients to understand design requirements , brand guidelines, and marketing objectives, ensuring alignment.</li>
+</ul>
+
+<ul class=pk1>
+  <li>Environmental Science</li>
+  <li>Project: Branding Overhaul for a Tech Startup</li>
+    <li>Description: Revamped the visual identity of a technology startup, including a new logo, website design, and marketing collateral</li>
+  </ul>
+
+  <p>One of the company in which I worked is <a href = https://www.bcg.com/en-ca/x target="_blank">Boston Consulting Group</a>. This tech company is situated in Mumbai , India. 
+    Boston Consulting Group, Inc. (BCG) is an American global management consulting firm founded in 1963 and headquartered in Boston, Massachusetts.
+    It is one of the Big Three (or MBB, the world's three largest management consulting firms by revenue) along with McKinsey & Company and Bain & Company. 
+    The firm was founded in 1963 as part of The Boston Safe Deposit and Trust Company. Bruce Henderson had been recruited from Arthur D. Little to establish the consulting arm operating as a subsidiary under the name Management and Consulting Division of the Boston Safe Deposit and Trust Company
+    Since 2021, the consultancy has been led by the German executive Christoph Schweizer.</p>
+    
+    <img src="comp.jpg" id = imgg2 alt="Code" width="350" height="480"> 
+    <ul class =pk3>
+        <li>Along with this, I also worked as Volunteer. My volunteer experience includes- <li>
+        <li>Environmental Conservation:</li>
+        <li>Organization: Green Horizon Initiative</li>
+        <li>Role: Environmental Volunteer</li>
+        <li>Description: Contributed to tree planting initiatives, organized community clean-up events, and conducted awareness campaigns on sustainable living practices.</li>
+        <li>Healthcare:</li>
+        <li>Organization: Health First Outreach</li>
+        <li>Role: Community Health Volunteer</li>
+        <li>Description: Assisted in organizing health clinics, conducted health awareness workshops, and participated in outreach programs to promote preventive healthcare practices in underserved communities.</li>
+        <li>Animal Welfare:</li>
+        <li>Organization: Paws and Claws Rescue</li>
+        <li>Role: Animal Care Volunteer</li>
+        <li>Description: Provided care for rescued animals, including feeding, grooming, and assisting with adoption events. Participated in fundraising activities to support the organization's mission.</li>
+      </ul>
+     
+    
+   <!--Took this info from wikipedia. -->
+
+
+
+<p></p>
+
+</body>
+</html>
