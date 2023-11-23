@@ -127,16 +127,26 @@ ul.b {
 ul.d {
   list-style-type:none;
   margin:0;
+  
+ 
   background-color: #333;
+  
+  
   padding:10px;
   overflow:hidden;
+
   font-size:larger;
   font-weight: 550;
+}
+
+
 
 .active{
   background-color:#483D8B;
   margin-left: 1000px;
 }
+
+
 
 li.d {
   display:block;
@@ -235,11 +245,13 @@ background-color: #0d0d0e;
 
 .imgg1{
   margin-left: 200px;
- float: left;
 }
 
 .imgg2{
-  margin-left: 500px;
+  margin-left: 700px;
+}
+.imgg1{
+  float: left;
 }
 
 .pk-img{
