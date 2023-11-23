@@ -9,7 +9,7 @@ body {
 nav {
  float: left;
  width: 20%;
- height: 1200px; 
+ height: 1300px; 
  background:#483D8B;
  padding: 25px;
  color: white;
@@ -37,16 +37,7 @@ ul {
 }
 
 /* I really like this color combination */
-table {
-  border-collapse: collapse;
-  width: 100%;
-}
 
-#pktb, #tb th {
-  text-align: left;
-  border: 5px solid white;
-  padding: 20px;
-}
 
 /* Liked this table design from W3schools */
 tr:nth-child(even) {
@@ -58,27 +49,36 @@ tr:nth-child(even) {
 }
 
 p {
-    font-size: 25px;
-    line-height: 1cm;
-    padding-left: 50px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 0.9cm;
+    padding-left: 200px;
+    padding-top: 50px;
+    display: block;
+    margin-block-start: 0%;
 }
 
 
 h2 {
   font-size:25px;
   line-height: 1cm;
-  padding-left: 400px;
+  padding-left: 70px;
   font-weight: bolder;
 }
 
 h3 {
-  font-size:50px;
+  font-size :55px;
   line-height: 1cm;
   text-align: right;
   text-decoration: overline;
   background-color: #483D8B;
-  padding-top: 20px;
+  padding-top: 50px;
   color: white;
+}
+h4 {
+  font-size:18px;
+  line-height: 1cm;
+  margin-left: 250px;
 }
 
 #pktb tr:hover {background-color: #ddd;}
@@ -87,7 +87,15 @@ h3 {
   text-align: left;
   background-color: white;
   color: black;
+  padding-left: 200px;
 }
+ 
+#pktb td {
+  text-align: left;
+  color: black;
+  padding-left: 80px;
+}
+
 /* Saw these emojies somewhere on internet and tried it using w3schools. */
 .pk-emoji {
   font-size: 35px;
@@ -104,20 +112,38 @@ hr.under1 {
   border-bottom:3px solid #1a04aa;
 
 }
+ul.a {
+  font-size: 20px;
+  padding-left: 15px;
+  line-height: 1cm;
+}
+
+ul.b {
+  font-size: 20px;
+  padding-left: 10px;
+  line-height: 1cm;
+}
 
 ul.d {
   list-style-type:none;
   margin:0;
-  padding:0;
-  overflow:hidden;
+  
+ 
   background-color: #333;
+  
+  
+  padding:10px;
+  overflow:hidden;
+
+  font-size:larger;
+  font-weight: 550;
 }
 
-li.a{
+/*li.a{
   float:right;
-}
+}*/
 
-li a {
+/*li a {
   display:block;
   color:white;
   text-align:center;
@@ -127,24 +153,21 @@ li a {
 
 li a:hover:not(.active){
   background-color: #111;
-}
+  margin-left: 1000px;
+
+}*/
+
 
 .active{
-  background-color:#483D8B
+  background-color:#483D8B;
+  margin-left: 1000px;
 }
 
 
-ul.d {
-  list-style-type:none;
-  margin:0;
-  padding:0;
-  overflow:hidden;
-  background-color: #333;
-}
 
-li.a{
+/*li.a{
   float:left;
-}
+}*/
 
 li.d {
   display:block;
@@ -161,6 +184,17 @@ li a:hover:not(.active){
 .active{
   background-color:#483D8B
 }
+
+ul.e {
+  font-size: 20px;
+  padding-left: 50px;
+  line-height: 1cm;
+}
+
+ul.c{
+  margin-left: 50px;
+}
+
 
 /* resize it using adobe photoshope */
 .pkimage{
@@ -182,7 +216,7 @@ body {
 background-color: grey;
 color:black;
 padding: 15px;
-resize: 10px;
+
 }
 
 /* Did this purposely */
@@ -221,7 +255,7 @@ color: #ffffff;
 }
 
 .menu li:hover {
-background-color: #0099cc;
+background-color: #0d0d0e;
 }
 
 .pkk{
@@ -230,13 +264,21 @@ background-color: #0099cc;
   font-size: 20px;
 }
 
+.imgg1{
+  margin-left: 200px;
+}
+
 .imgg2{
   margin-left: 700px;
+}
+.imgg1{
+  float: left;
 }
 
 .pk-img{
   float: right;
   margin:10px;
+  
 }
 
 /* Took idea from w3 schools but changed the color accordingly. */
@@ -260,4 +302,164 @@ element.style{
 
 .back{
   background-color: skyblue;
+}
+
+.dt1{
+  font-size: 25px;
+  line-height: 3cm;
+  margin-left: 25%;
+  font-weight: 700;
+}
+
+.dt2{
+  font-size: 25px;
+  line-height: 3cm;
+  margin-left: 50px;
+  font-weight: 500;
+}
+
+.dt3{
+  font-size: 25px;
+  line-height: 3cm;
+  margin-left: 250px;
+  font-weight: 700;
+}
+
+dd{
+  font-size: 20px;
+  margin-left: 500px;
+  line-height: 1cm;
+}
+
+.pk1 li{
+  font-size: 20px;
+  color:white;
+  line-height: 1cm;
+  margin-left: 100px;
+  font-weight: 200;
+
+}
+.pk1{
+  background-color:  #483D8B;
+
+  font-size: 20px;
+  line-height: 1cm;
+  margin-left: 250px;
+  font-weight: 200;
+
+}
+.pk2 li{
+  font-size: 20px;
+  line-height: 1cm;
+  margin-left: 100px;
+  font-weight: 200;
+
+}
+.pk3{
+  background-color:grey;
+  color:white;
+  font-size: 20px;
+  line-height: 1cm;
+  margin-left: 100px;
+  font-weight: 200;
+}
+.pk3 li{
+  font-size: 20px;
+  line-height: 1cm;
+  margin-left: 100px;
+  font-weight: 200;
+
+}
+
+
+#pk1{
+  margin-left: 20px;
+
+}
+
+#pk2{
+  margin-left: 300px;
+
+
+}
+.dropbtn {
+  background-color: #4c6faf;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 150px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 500px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #020c11;
+}
+
+.pkbtn {
+  background-color: #4c6faf;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.pk {
+  position: relative;
+  display: inline-block;
+  margin-left:350px;
+}
+
+.pk-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 500px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.pk-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.pk-content a:hover {background-color: #f1f1f1}
+
+.pk:hover .pk-content {
+  display: block;
+}
+
+.pk:hover .pkbtn {
+  background-color: #3e578e;
 }
