@@ -27,7 +27,7 @@
     display: block;
     margin: 0 auto;
     margin-top: 150px;
-    border-radius: 20%;
+    border-radius: 13%;
   }
   
   nav h2 {
@@ -123,6 +123,7 @@
   .pk-img{
     float: right;
     margin:10px; 
+    border-radius: 13%;
   }
 
   /* Responsive media queries */
@@ -185,7 +186,7 @@ h4 {
 #imgg1{
   margin-left: 80px;
   margin-top: 40px;
-  border-radius: 20%;
+  border-radius: 13%;
 }
 
 #imgg2{
@@ -193,7 +194,7 @@ h4 {
 margin-right: 10px;
 float: right;
 margin-top: 50px;
-border-radius: 20%;
+border-radius: 13%;
 }
 
 p {
