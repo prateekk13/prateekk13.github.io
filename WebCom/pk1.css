@@ -138,6 +138,10 @@
       width: 80%;
       float: left;
     }
+      .photu {
+          width: 50%;
+          float: left;
+      }
   }
   h2{
     margin-left: 20px;
